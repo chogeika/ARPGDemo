@@ -1,0 +1,29 @@
+﻿  Parsing headers for HomininaEditor
+    Running UnrealHeaderTool "F:\Proj1\Hominina\Hominina.uproject" "F:\Proj1\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\HomininaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HomininaEditor in 4.4792345 seconds
+  Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 4 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  UITrigger.cpp (0:07.40 at +0:00)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  UE4Editor-Hominina.dll (0:00.78 at +0:07)
+     Creating library F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.suppressed.lib and object F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.suppressed.exp
+  UE4Editor-Hominina.lib (0:00.11 at +0:08)
+     Creating library F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.lib and object F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.exp
+  HomininaEditor.target (0:00.20 at +0:08)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 8.73 seconds
+  Total execution time: 13.81 seconds

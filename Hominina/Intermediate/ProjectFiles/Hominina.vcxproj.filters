@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Hominina.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DF2939A9-91D9-4611-A2E5-0F85CE663F64}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Hominina.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HomininaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CA079C8D-DC41-4E02-8CB3-65F86EA17D32}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{C2C6DB67-188B-49A8-8A8B-381F76FFBCE6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{90B81733-DA06-4B75-98B4-E4D6A37A7306}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{EEB8F0A5-58C6-46A1-A1C4-2FFA82818D51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{CDDE773D-60D9-4E3A-B05A-C67C4A32BC9C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{1B54F257-B8F4-48EE-BC23-78AD21C81414}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{5D38E147-0A75-4596-9107-3CF9C89832B5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{3D3E9C79-0EBD-45A6-B553-72628277EC51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{8377E472-DEB8-4AFE-8D8C-9CC391A58341}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\Hominina">
+      <UniqueIdentifier>{A903F960-0A80-4405-A3E0-1B06ED068D7D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Hominina\Hominina.Build.cs">
+      <Filter>Source\Hominina</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Hominina\Hominina.cpp">
+      <Filter>Source\Hominina</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Hominina\Hominina.h">
+      <Filter>Source\Hominina</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Hominina\HomininaGameModeBase.cpp">
+      <Filter>Source\Hominina</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Hominina\HomininaGameModeBase.h">
+      <Filter>Source\Hominina</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Private">
+      <UniqueIdentifier>{5F241005-6A49-4454-9F15-A5847FA87130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hominina\Public">
+      <UniqueIdentifier>{43730ECE-8F1E-4E7D-9DA4-9366948BCE57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
