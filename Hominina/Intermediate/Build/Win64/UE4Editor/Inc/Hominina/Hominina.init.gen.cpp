@@ -11,6 +11,10 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHominina_init() {}
+	HOMININA_API UFunction* Z_Construct_UDelegateFunction_Hominina_AROnUpgradeInstalled__DelegateSignature();
+	HOMININA_API UFunction* Z_Construct_UDelegateFunction_Hominina_AROnUpgradeRemoved__DelegateSignature();
+	HOMININA_API UFunction* Z_Construct_UDelegateFunction_Hominina_AROnConnectedToGS__DelegateSignature();
+	HOMININA_API UFunction* Z_Construct_UDelegateFunction_Hominina_ARLoginAttemptEvent__DelegateSignature();
 	HOMININA_API UFunction* Z_Construct_UDelegateFunction_Hominina_RamaMeleeHitSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Hominina()
 	{
@@ -18,6 +22,10 @@ void EmptyLinkFunctionForGeneratedCodeHominina_init() {}
 		if (!ReturnPackage)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Hominina_AROnUpgradeInstalled__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Hominina_AROnUpgradeRemoved__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Hominina_AROnConnectedToGS__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Hominina_ARLoginAttemptEvent__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Hominina_RamaMeleeHitSignature__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
@@ -25,8 +33,8 @@ void EmptyLinkFunctionForGeneratedCodeHominina_init() {}
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xA46CE0DE,
-				0x9ABB5C82,
+				0x7176A23A,
+				0x984A8E59,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

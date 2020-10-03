@@ -1,2 +1,0 @@
-F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\Definitions.Hominina.h
-F:\Proj1\Hominina\Source\Hominina\Hominina.h

@@ -1,8 +1,17 @@
-﻿  Parsing headers for HomininaEditor
-    Running UnrealHeaderTool "F:\Proj1\Hominina\Hominina.uproject" "F:\Proj1\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\HomininaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for HomininaEditor in 4.4792345 seconds
+﻿  Cleaning HomininaEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (F:\Proj).
+  Creating makefile for HomininaEditor (no existing makefile)
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\AbilityFrameworkEditor.Build.cs : warning : Referenced directory 'F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Private' does not exist.
+F:\Proj\Hominina\Plugins\DraggableWindow\Source\DraggableWindow\DraggableWindow.Build.cs : warning : Referenced directory 'F:\Proj\Hominina\Plugins\DraggableWindow\Source\DraggableWindow\Private' does not exist.
+F:\Proj\Hominina\Plugins\SpectrAITest\Source\SpectrAITest\SpectrAITest.Build.cs : warning : Referenced directory 'F:\Proj\Hominina\Plugins\SpectrAITest\Source\SpectrAITest\Private' does not exist.
+F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAI\SpectrAI.Build.cs : warning : Referenced directory 'F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAI\Private' does not exist.
+F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAIEditor\SpectrAIEditor.Build.cs : warning : Referenced directory 'F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAIEditor\Private' does not exist.
+F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAIEditor\SpectrAIEditor.Build.cs : warning : Referenced directory 'F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAI\Private' does not exist.
+  Parsing headers for HomininaEditor
+    Running UnrealHeaderTool "F:\Proj\Hominina\Hominina.uproject" "F:\Proj\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\HomininaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HomininaEditor in 4.9890754 seconds
   Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Distributing 4 actions to XGE
+  Distributing 59 actions to XGE
   --------------------Build System Warning---------------------------------------
   License is invalid:
       License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
@@ -10,14 +19,170 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  UITrigger.cpp (0:07.40 at +0:00)
+  SharedPCH.Engine.cpp (0:16.34 at +0:00)
+  SharedPCH.UnrealEd.cpp (0:15.82 at +0:16)
+  Module.JsonUObject.cpp (0:08.17 at +0:32)
 EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
   ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
-  UE4Editor-Hominina.dll (0:00.78 at +0:07)
-     Creating library F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.suppressed.lib and object F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.suppressed.exp
-  UE4Editor-Hominina.lib (0:00.11 at +0:08)
-     Creating library F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.lib and object F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.exp
-  HomininaEditor.target (0:00.20 at +0:08)
+  Module.SpectrAI.cpp (0:03.96 at +0:40)
+F:/Proj/Hominina/Plugins/SpectrAI/Source/SpectrAI/Public/SpectrBrainComponent.cpp(19): warning C4996: 'UObject::CreateDefaultSubobject': CreateDefaultSubobject no longer takes bAbstract as a parameter. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.SpectrAI.gen.cpp (0:02.79 at +0:44)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.InventoryFramework.cpp (0:02.90 at +0:47)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.InventoryFramework.gen.cpp (0:01.09 at +0:50)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFramework.cpp (0:32.90 at +0:51)
+F:/Proj/Hominina/Plugins/AbilityFramework/Source/AbilityFramework/Private/Attributes/GAAttributeExtension.cpp(7): warning C4458: declaration of 'Attribute' hides class member
+  F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributeExtension.h(18): note: see declaration of 'UGAAttributeExtension::Attribute'
+F:/Proj/Hominina/Plugins/AbilityFramework/Source/AbilityFramework/Private/Attributes/GAAttributeExtension.cpp(11): warning C4458: declaration of 'Attribute' hides class member
+  F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributeExtension.h(18): note: see declaration of 'UGAAttributeExtension::Attribute'
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFramework.gen.1_of_5.cpp (0:21.15 at +1:24)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFramework.gen.2_of_5.cpp (0:17.98 at +1:45)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFramework.gen.4_of_5.cpp (0:17.53 at +2:03)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFramework.gen.3_of_5.cpp (0:17.96 at +2:20)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFramework.gen.5_of_5.cpp (0:15.59 at +2:38)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Default.rc2 (0:00.09 at +2:54)
+  Default.rc2 (0:00.09 at +2:54)
+  Default.rc2 (0:00.07 at +2:54)
+  Default.rc2 (0:00.09 at +2:54)
+  Module.DraggableWindow.cpp (0:11.82 at +2:54)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFrameworkEditor.gen.cpp (0:01.09 at +3:06)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.AbilityFrameworkEditor.cpp (0:30.96 at +3:07)
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor/GAEffectCueEditor.h(36): warning C4263: 'void FGAEffectCueEditor::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,const TArray<UObject *,FDefaultAllocator> &,const bool)': member function does not override any base class virtual member function
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor/GAEffectCueEditor.h(79): warning C4264: 'void FAssetEditorToolkit::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,UObject *,const bool,const bool)': no override available for virtual member function from base 'FAssetEditorToolkit'; function is hidden
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(111): note: see declaration of 'FAssetEditorToolkit::InitAssetEditor'
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(85): note: see declaration of 'FAssetEditorToolkit'
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor/GAEffectCueEditor.h(79): warning C4264: 'void FAssetEditorToolkit::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,const TArray<UObject *,FDefaultAllocator> &,const bool,const bool)': no override available for virtual member function from base 'FAssetEditorToolkit'; function is hidden
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(110): note: see declaration of 'FAssetEditorToolkit::InitAssetEditor'
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(85): note: see declaration of 'FAssetEditorToolkit'
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityEditor.h(21): warning C4263: 'void FGAAbilityEditor::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,const TArray<UObject *,FDefaultAllocator> &,const bool)': member function does not override any base class virtual member function
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityEditor.h(64): warning C4264: 'void FAssetEditorToolkit::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,UObject *,const bool,const bool)': no override available for virtual member function from base 'FAssetEditorToolkit'; function is hidden
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(111): note: see declaration of 'FAssetEditorToolkit::InitAssetEditor'
+  F:\UE_4.23\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h(14): note: see declaration of 'FAssetEditorToolkit'
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityEditor.h(64): warning C4264: 'void FAssetEditorToolkit::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,const TArray<UObject *,FDefaultAllocator> &,const bool,const bool)': no override available for virtual member function from base 'FAssetEditorToolkit'; function is hidden
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(110): note: see declaration of 'FAssetEditorToolkit::InitAssetEditor'
+  F:\UE_4.23\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h(14): note: see declaration of 'FAssetEditorToolkit'
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectEditor.h(17): warning C4263: 'void FGAEffectEditor::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,const TArray<UObject *,FDefaultAllocator> &,const bool)': member function does not override any base class virtual member function
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectEditor.h(53): warning C4264: 'void FAssetEditorToolkit::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,UObject *,const bool,const bool)': no override available for virtual member function from base 'FAssetEditorToolkit'; function is hidden
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(111): note: see declaration of 'FAssetEditorToolkit::InitAssetEditor'
+  F:\UE_4.23\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h(14): note: see declaration of 'FAssetEditorToolkit'
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectEditor.h(53): warning C4264: 'void FAssetEditorToolkit::InitAssetEditor(const EToolkitMode::Type,const TSharedPtr<IToolkitHost,ESPMode::NotThreadSafe> &,const FName,const TSharedRef<FTabManager::FLayout,ESPMode::NotThreadSafe> &,const bool,const bool,const TArray<UObject *,FDefaultAllocator> &,const bool,const bool)': no override available for virtual member function from base 'FAssetEditorToolkit'; function is hidden
+  F:\UE_4.23\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorToolkit.h(110): note: see declaration of 'FAssetEditorToolkit::InitAssetEditor'
+  F:\UE_4.23\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h(14): note: see declaration of 'FAssetEditorToolkit'
+F:/Proj/Hominina/Plugins/AbilityFramework/Source/AbilityFrameworkEditor/Public/EffectEditor/GAEffectEditor.cpp(37): warning C4996: 'FEditorDelegates::OnAssetPostImport': Use the ImportSubsystem instead. GEditor->GetEditorSubsystem<UImportSubsystem>() Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.InventoryFrameworkUI.cpp (0:11.04 at +3:38)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.InventoryFrameworkUI.gen.cpp (0:02.71 at +3:49)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.DraggableWindow.gen.cpp (0:08.31 at +3:52)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Default.rc2 (0:00.11 at +4:00)
+  Default.rc2 (0:00.07 at +4:00)
+  Default.rc2 (0:00.07 at +4:00)
+  UE4Editor-AbilityFramework.lib (0:00.25 at +4:00)
+     Creating library F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFramework\UE4Editor-AbilityFramework.lib and object F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFramework\UE4Editor-AbilityFramework.exp
+  UE4Editor-SpectrAI.lib (0:00.12 at +4:01)
+     Creating library F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\UE4Editor-SpectrAI.lib and object F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\UE4Editor-SpectrAI.exp
+  UE4Editor-InventoryFramework.lib (0:00.12 at +4:01)
+     Creating library F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\UE4Editor-InventoryFramework.lib and object F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\UE4Editor-InventoryFramework.exp
+  uFire.cpp (0:00.56 at +4:01)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.SpectrAIEditor.cpp (0:01.12 at +4:02)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.SpectrAITest.gen.cpp (0:02.10 at +4:03)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.Hominina.gen.cpp (0:17.59 at +4:05)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Module.Hominina.cpp (0:18.93 at +4:22)
+F:/Proj/Hominina/Source/Hominina/Private/ARPlayerController.cpp(44): warning C4458: declaration of 'Character' hides class member
+  F:\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+F:/Proj/Hominina/Source/Hominina/Private/ARPlayerController.cpp(138): warning C4458: declaration of 'MyHUD' hides class member
+  F:\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(259): note: see declaration of 'APlayerController::MyHUD'
+F:\Proj\Hominina\Source\Hominina\Public\UI\Inventory/ARInventoryScreenWidget.h(73): warning C4458: declaration of 'Slot' hides class member
+  F:\UE_4.23\Engine\Source\Runtime\UMG\Public\Components/Widget.h(258): note: see declaration of 'UWidget::Slot'
+  F:/Proj/Hominina/Source/Hominina/Private/UI/Inventory/ARUIInventoryComponent.cpp(105): note: see reference to function template instantiation 'void UARInventoryScreenWidget::UpdateItemList<UARItemWeapon,UARListItemWeaponWidget>(const TArray<uint8,FDefaultAllocator> &,TSubclassOf<UARListItemWeaponWidget>,AARPlayerController *,UARItemView *)' being compiled
+F:\Proj\Hominina\Source\Hominina\Public\UI\Inventory/ARInventoryScreenWidget.h(118): warning C4458: declaration of 'Slot' hides class member
+  F:\UE_4.23\Engine\Source\Runtime\UMG\Public\Components/Widget.h(258): note: see declaration of 'UWidget::Slot'
+  F:/Proj/Hominina/Source/Hominina/Private/UI/Inventory/ARUIInventoryComponent.cpp(180): note: see reference to function template instantiation 'void UARInventoryScreenWidget::AddWeaponMods<UARMagazineUpgradeItem,UARListItemMagazineView>(const TArray<uint8,FDefaultAllocator> &,TSubclassOf<UARListItemMagazineView>,AARPlayerController *,UARItemView *)' being compiled
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  UE4Editor-JsonUObject.lib (0:00.15 at +4:41)
+     Creating library F:\Proj\Hominina\Plugins\JsonUObject\Intermediate\Build\Win64\UE4Editor\Development\JsonUObject\UE4Editor-JsonUObject.lib and object F:\Proj\Hominina\Plugins\JsonUObject\Intermediate\Build\Win64\UE4Editor\Development\JsonUObject\UE4Editor-JsonUObject.exp
+  Module.SpectrAITest.cpp (0:02.25 at +4:41)
+EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
+  ', library C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\1041\clui.dll)
+  Default.rc2 (0:00.09 at +4:44)
+  Default.rc2 (0:00.07 at +4:44)
+  Default.rc2 (0:00.09 at +4:44)
+  Default.rc2 (0:00.07 at +4:44)
+  UE4Editor-InventoryFrameworkUI.lib (0:00.10 at +4:44)
+     Creating library F:\Proj\Hominina\Plugins\InventoryFrameworkUI\Intermediate\Build\Win64\UE4Editor\Development\InventoryFrameworkUI\UE4Editor-InventoryFrameworkUI.lib and object F:\Proj\Hominina\Plugins\InventoryFrameworkUI\Intermediate\Build\Win64\UE4Editor\Development\InventoryFrameworkUI\UE4Editor-InventoryFrameworkUI.exp
+  UE4Editor-DraggableWindow.lib (0:00.12 at +4:44)
+     Creating library F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\UE4Editor-DraggableWindow.lib and object F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\UE4Editor-DraggableWindow.exp
+  UE4Editor-AbilityFrameworkEditor.lib (0:00.12 at +4:44)
+     Creating library F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFrameworkEditor\UE4Editor-AbilityFrameworkEditor.lib and object F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFrameworkEditor\UE4Editor-AbilityFrameworkEditor.exp
+  UE4Editor-AbilityFrameworkEditor.dll (0:00.87 at +4:44)
+     Creating library F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFrameworkEditor\UE4Editor-AbilityFrameworkEditor.suppressed.lib and object F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFrameworkEditor\UE4Editor-AbilityFrameworkEditor.suppressed.exp
+  UE4Editor-AbilityFramework.dll (0:00.98 at +4:45)
+     Creating library F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFramework\UE4Editor-AbilityFramework.suppressed.lib and object F:\Proj\Hominina\Plugins\AbilityFramework\Intermediate\Build\Win64\UE4Editor\Development\AbilityFramework\UE4Editor-AbilityFramework.suppressed.exp
+  UE4Editor-Hominina.dll (0:00.78 at +4:46)
+     Creating library F:\Proj\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.suppressed.lib and object F:\Proj\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.suppressed.exp
+  UE4Editor-SpectrAIEditor.dll (0:00.51 at +4:47)
+     Creating library F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAIEditor\UE4Editor-SpectrAIEditor.suppressed.lib and object F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAIEditor\UE4Editor-SpectrAIEditor.suppressed.exp
+  UE4Editor-SpectrAITest.dll (0:00.56 at +4:48)
+     Creating library F:\Proj\Hominina\Plugins\SpectrAITest\Intermediate\Build\Win64\UE4Editor\Development\SpectrAITest\UE4Editor-SpectrAITest.suppressed.lib and object F:\Proj\Hominina\Plugins\SpectrAITest\Intermediate\Build\Win64\UE4Editor\Development\SpectrAITest\UE4Editor-SpectrAITest.suppressed.exp
+  UE4Editor-DraggableWindow.dll (0:00.56 at +4:48)
+     Creating library F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\UE4Editor-DraggableWindow.suppressed.lib and object F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\UE4Editor-DraggableWindow.suppressed.exp
+  UE4Editor-SpectrAI.dll (0:00.54 at +4:49)
+     Creating library F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\UE4Editor-SpectrAI.suppressed.lib and object F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\UE4Editor-SpectrAI.suppressed.exp
+  UE4Editor-InventoryFrameworkUI.dll (0:00.54 at +4:49)
+     Creating library F:\Proj\Hominina\Plugins\InventoryFrameworkUI\Intermediate\Build\Win64\UE4Editor\Development\InventoryFrameworkUI\UE4Editor-InventoryFrameworkUI.suppressed.lib and object F:\Proj\Hominina\Plugins\InventoryFrameworkUI\Intermediate\Build\Win64\UE4Editor\Development\InventoryFrameworkUI\UE4Editor-InventoryFrameworkUI.suppressed.exp
+  UE4Editor-InventoryFramework.dll (0:00.56 at +4:50)
+     Creating library F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\UE4Editor-InventoryFramework.suppressed.lib and object F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\UE4Editor-InventoryFramework.suppressed.exp
+  UE4Editor-JsonUObject.dll (0:00.56 at +4:50)
+     Creating library F:\Proj\Hominina\Plugins\JsonUObject\Intermediate\Build\Win64\UE4Editor\Development\JsonUObject\UE4Editor-JsonUObject.suppressed.lib and object F:\Proj\Hominina\Plugins\JsonUObject\Intermediate\Build\Win64\UE4Editor\Development\JsonUObject\UE4Editor-JsonUObject.suppressed.exp
+  UE4Editor-uFire.dll (0:00.54 at +4:51)
+     Creating library F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\UE4Editor-uFire.suppressed.lib and object F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\UE4Editor-uFire.suppressed.exp
+  UE4Editor-SpectrAITest.lib (0:00.10 at +4:52)
+     Creating library F:\Proj\Hominina\Plugins\SpectrAITest\Intermediate\Build\Win64\UE4Editor\Development\SpectrAITest\UE4Editor-SpectrAITest.lib and object F:\Proj\Hominina\Plugins\SpectrAITest\Intermediate\Build\Win64\UE4Editor\Development\SpectrAITest\UE4Editor-SpectrAITest.exp
+  UE4Editor-Hominina.lib (0:00.12 at +4:52)
+     Creating library F:\Proj\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.lib and object F:\Proj\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\UE4Editor-Hominina.exp
+  UE4Editor-SpectrAIEditor.lib (0:00.11 at +4:52)
+     Creating library F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAIEditor\UE4Editor-SpectrAIEditor.lib and object F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAIEditor\UE4Editor-SpectrAIEditor.exp
+  UE4Editor-uFire.lib (0:00.09 at +4:52)
+     Creating library F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\UE4Editor-uFire.lib and object F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\UE4Editor-uFire.exp
+  HomininaEditor.target (0:00.25 at +4:52)
   ---------------------- Done ----------------------
   
       Rebuild All: 1 succeeded, 0 failed, 0 skipped
@@ -25,5 +190,5 @@ EXEC : warning : unable to get MBCS string (input text '??: ?????? ????: %s%s
   1 build system warning(s):
      - License is invalid
   
-  Total time in XGE executor: 8.73 seconds
-  Total execution time: 13.81 seconds
+  Total time in XGE executor: 293.00 seconds
+  Total execution time: 300.01 seconds

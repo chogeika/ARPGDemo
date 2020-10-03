@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Hominina.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DF2939A9-91D9-4611-A2E5-0F85CE663F64}</UniqueIdentifier>
+      <UniqueIdentifier>{A975EB7D-29ED-4593-9D05-79A6A02C2FE3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Hominina.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CA079C8D-DC41-4E02-8CB3-65F86EA17D32}</UniqueIdentifier>
+      <UniqueIdentifier>{F3655ADF-A51B-440C-9831-4EBC222D91D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,55 +30,1339 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Android">
-      <UniqueIdentifier>{C2C6DB67-188B-49A8-8A8B-381F76FFBCE6}</UniqueIdentifier>
+      <UniqueIdentifier>{49AB1620-F4B4-4C61-9896-2149FC08AD79}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Android\AndroidEngine.ini">
       <Filter>Config\Android</Filter>
     </None>
     <Filter Include="Config\IOS">
-      <UniqueIdentifier>{90B81733-DA06-4B75-98B4-E4D6A37A7306}</UniqueIdentifier>
+      <UniqueIdentifier>{A4945BF6-8940-477C-9809-AA598B3BA5B2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\IOS\IOSEngine.ini">
       <Filter>Config\IOS</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{EEB8F0A5-58C6-46A1-A1C4-2FFA82818D51}</UniqueIdentifier>
+      <UniqueIdentifier>{D858208D-9382-4A16-AD78-5301C517B172}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{CDDE773D-60D9-4E3A-B05A-C67C4A32BC9C}</UniqueIdentifier>
+      <UniqueIdentifier>{6D244F04-7663-400A-A097-CFC272E858D6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <Filter Include="Config\PS4">
-      <UniqueIdentifier>{1B54F257-B8F4-48EE-BC23-78AD21C81414}</UniqueIdentifier>
+      <UniqueIdentifier>{BEAC2C8F-432B-4281-A4D4-504495FE7F4D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\PS4\PS4Engine.ini">
       <Filter>Config\PS4</Filter>
     </None>
     <Filter Include="Config\Switch">
-      <UniqueIdentifier>{5D38E147-0A75-4596-9107-3CF9C89832B5}</UniqueIdentifier>
+      <UniqueIdentifier>{7671ED2A-E92E-4567-B59C-E77C1B6FD4F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Switch\SwitchEngine.ini">
       <Filter>Config\Switch</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{3D3E9C79-0EBD-45A6-B553-72628277EC51}</UniqueIdentifier>
+      <UniqueIdentifier>{1697D1C4-A72D-4A6D-AFB5-01F58165A75E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
     <Filter Include="Config\XboxOne">
-      <UniqueIdentifier>{8377E472-DEB8-4AFE-8D8C-9CC391A58341}</UniqueIdentifier>
+      <UniqueIdentifier>{263207B5-4FAC-4E39-9E3A-21BC059F27FE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
       <Filter>Config\XboxOne</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{A84FEC45-1BD1-4A45-A962-0071BD170328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AbilityFramework">
+      <UniqueIdentifier>{27DD0EC1-7F3A-45CE-B752-B350EEE3886A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AbilityFramework\Source">
+      <UniqueIdentifier>{EB902514-DC2C-4B32-8CC2-9E1B0D60B6EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFrameworkEditor">
+      <UniqueIdentifier>{023DFBE8-1D4F-469B-A878-5391AC892990}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\AbilityFrameworkEditor.Build.cs">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor</Filter>
+    </None>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public">
+      <UniqueIdentifier>{2F864002-884D-457A-977B-A6F39F91AF9F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityFrameworkEditor.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityFrameworkEditor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityActionSpecDetails.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityActionSpecDetails.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityCooldownSpecDetails.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityCooldownSpecDetails.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityInfiniteDurationSpecDetails.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityInfiniteDurationSpecDetails.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityInfinitePeriodSpecDetails.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityInfinitePeriodSpecDetails.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityPeriodSpecDetails.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFAbilityPeriodSpecDetails.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFEffectCustomizationCommon.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFEffectCustomizationCommon.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFEK2Node_AsyncEffectTaskCall.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AFEK2Node_AsyncEffectTaskCall.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAAttributeDetailCustomization.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAAttributeDetailCustomization.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAAttributePanelGraphPinFactory.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAAttributePanelGraphPinFactory.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAAttributePin.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAAttributePin.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEffectClassStructWidget.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEffectClassStructWidget.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEffectDetails.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEffectDetails.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEffectPropertyStructCustomization.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEffectPropertyStructCustomization.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEK2Node_LatentAbilityTaskCall.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEK2Node_LatentAbilityTaskCall.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEK2Node_LatentAction.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAEK2Node_LatentAction.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\GAGlobalTypesEditor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\IAbilityFrameworkEditor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\SGAAttributeWidget.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\SGAAttributeWidget.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor">
+      <UniqueIdentifier>{8B938A3D-2F4E-407B-A2DF-7AED712A9B9F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\AssetTypeActions_GAAbilityBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\AssetTypeActions_GAAbilityBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityBlueprintFactory.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityBlueprintFactory.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityEditor.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityEditor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityGraph.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityGraph.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityGraphSchema.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor\GAAbilityGraphSchema.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\AbilityEditor</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic">
+      <UniqueIdentifier>{E6D4945A-828D-4ED1-B929-9388DDB3FA7C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic\AFCueStaticBlueprintFactory.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic\AFCueStaticBlueprintFactory.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic\AssetTypeActions_AFCueStaticBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic\AssetTypeActions_AFCueStaticBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CueStatic</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CurveTable">
+      <UniqueIdentifier>{18EE8AAD-83E5-4561-A574-836EED75DA0F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CurveTable\GACurveTableDetailCustomization.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CurveTable</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CurveTable\GACurveTableDetailCustomization.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\CurveTable</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor">
+      <UniqueIdentifier>{171D5BA5-A7B6-4B84-AED4-9521E28E1ED9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\AFCueActorBlueprintFactory.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\AFCueActorBlueprintFactory.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\AFEffectCueDetails.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\AFEffectCueDetails.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\AssetTypeActions_AFCueActorBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\AssetTypeActions_AFCueActorBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\GAEffectCueEditor.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\GAEffectCueEditor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\GAEffectCueGraph.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\GAEffectCueGraph.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\GAEffectCueGraphSchema.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor\GAEffectCueGraphSchema.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectCueEditor</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor">
+      <UniqueIdentifier>{5BFAAEE0-D4A9-477D-AD66-81B575711FB4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\AssetTypeActions_GAEffectBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\AssetTypeActions_GAEffectBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectBlueprintFactory.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectBlueprintFactory.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectEditor.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectEditor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectGraph.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectGraph.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectGraphSchema.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor\GAEffectGraphSchema.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFrameworkEditor\Public\EffectEditor</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\AbilityFramework\AbilityFramework.uplugin">
+      <Filter>Plugins\AbilityFramework</Filter>
+    </None>
+    <Filter Include="Plugins\DraggableWindow">
+      <UniqueIdentifier>{8886D69A-5375-46B5-9BE5-01B5151FB0AE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DraggableWindow\DraggableWindow.uplugin">
+      <Filter>Plugins\DraggableWindow</Filter>
+    </None>
+    <Filter Include="Plugins\InventoryFrameworkUI">
+      <UniqueIdentifier>{AAD8278A-E178-4EC1-8F0D-E5CD94ECA813}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\InventoryFrameworkUI\InventoryFrameworkUI.uplugin">
+      <Filter>Plugins\InventoryFrameworkUI</Filter>
+    </None>
+    <Filter Include="Plugins\InventoryFramework">
+      <UniqueIdentifier>{509375C5-E069-407D-8650-034AD7427549}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\InventoryFramework\InventoryFramework.uplugin">
+      <Filter>Plugins\InventoryFramework</Filter>
+    </None>
+    <Filter Include="Plugins\JsonUObject">
+      <UniqueIdentifier>{B9C0348E-192E-45D5-8F75-C86F062F33CD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\JsonUObject\JsonUObject.uplugin">
+      <Filter>Plugins\JsonUObject</Filter>
+    </None>
+    <Filter Include="Plugins\SpectrAITest">
+      <UniqueIdentifier>{F332B656-BDA1-4DAE-8E1A-9A214FB10779}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpectrAITest\SpectrAITest.uplugin">
+      <Filter>Plugins\SpectrAITest</Filter>
+    </None>
+    <Filter Include="Plugins\SpectrAI">
+      <UniqueIdentifier>{0984F9F2-1A21-4B8E-A4DC-49F3FCC6B310}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpectrAI\SpectrAI.uplugin">
+      <Filter>Plugins\SpectrAI</Filter>
+    </None>
+    <Filter Include="Plugins\uFire">
+      <UniqueIdentifier>{96DF5342-7B9F-4951-BDE0-66D253486EDB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\uFire\uFire.uplugin">
+      <Filter>Plugins\uFire</Filter>
+    </None>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework">
+      <UniqueIdentifier>{48A2F07C-8A0B-475A-8AC2-E183A5A77A8D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\AbilityFramework.Build.cs">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework</Filter>
+    </None>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private">
+      <UniqueIdentifier>{70DF8EE7-D8A8-4EDC-A594-2077B25882CC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AbilityFramework.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFAbilityComponent.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFAbilityInterface.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFAbilityTypes.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFAttributeComponent.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFAttributeInterface.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFBlueprintFunctionLibrary.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFCueInterface.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFCueManager.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFEffectsComponent.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AFSimpleInterface.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\GAGlobalTypes.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\GAHelperTemplates.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\GAPhysicalMaterial.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\GAUIData.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities">
+      <UniqueIdentifier>{F019CB32-8158-44F9-B877-E309001C1FF4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\AFAbilityActivationSpec.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\AFAbilityCooldownSpec.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\AFAbilityInfiniteDurationSpec.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\AFAbilityPeriodicInfiniteSpec.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\AFAbilityPeriodSpec.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\GAAbilityBase.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\GAAbilityBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks">
+      <UniqueIdentifier>{4880A893-C9D0-4B3C-89CB-47705579BB2F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\AFAbilityTask_SpawnProjectile.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_CreateObject.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_PlayMontage.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_Repeat.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_SpawnActor.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_TargetData.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_TargetDataCircle.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_TargetDataLineTrace.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_WaitForConfirm.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks\GAAbilityTask_WaitTargetData.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Abilities\Tasks</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\AnimNotify">
+      <UniqueIdentifier>{50071E0D-7E40-4BDF-A54C-7BE4324D8FCA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AnimNotify\AFAbilityNotifyState.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\AnimNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\AnimNotify\AFAnimNotify.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\AnimNotify</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes">
+      <UniqueIdentifier>{89C00E76-54C8-45BB-A25B-B46AACCAE420}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes\GAAttributeBase.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes\GAAttributeExtension.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes\GAAttributeGlobals.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes\GAAttributesBase.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes\GAAttributesBlueprintFunctionLibrary.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes\GAAttributesStats.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Attributes</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Cues">
+      <UniqueIdentifier>{DFA7584A-D9EC-4553-8FDA-FFCCE8EBB4DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Cues\AFCueStaticBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Cues\AFCueStaticGeneratedClass.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Cues</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects">
+      <UniqueIdentifier>{F3220609-6C69-4599-8CEE-71ADA9607FE7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFCueActor.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFCueActorBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFCueActorGeneratedClass.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFCueStatic.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFEffectApplicationRequirement.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFEffectCustomApplication.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFEffectCustomStackingRule.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\AFEffectSpecFunctionLibrary.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GABlueprintLibrary.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GACustomCalculation.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAEffectBlueprint.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAEffectCueGlobals.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAEffectCueSequence.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAEffectExecution.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAEffectExtension.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAEffectField.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAEffectGlobalTypes.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\GAGameEffect.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\ApplicationRequirement">
+      <UniqueIdentifier>{AC22A946-6B59-46B9-A88C-0D80C09221E3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\ApplicationRequirement\AFAttributeStongerOverride.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\ApplicationRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\ApplicationRequirement\AFEffectAlreadyApplied.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\ApplicationRequirement</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications">
+      <UniqueIdentifier>{F99BA8E7-4DD6-4BE2-BCFB-F38F69409C20}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFAtributeDurationAdd.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFAtributeDurationUnique.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFAttributeDurationInfinite.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFAttributeDurationOverride.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFPeriodApplicationAdd.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFPeriodApplicationExtend.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFPeriodApplicationInfiniteAdd.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFPeriodApplicationOverride.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications\AFPeriodicApplInfiniteOverride.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\CustomApplications</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks">
+      <UniqueIdentifier>{6D2799DC-5521-4A09-8AA0-65FEFF448CE2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks\AFEffectTask.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks\AFEffectTask_AppliedEffectEvent.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks\AFEffectTask_AttributeChange.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks\AFEffectTask_EffectAppliedToSelf.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks\AFEffectTask_EffectAppliedToTarget.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks\AFEffectTask_EffectEvent.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks\AFEffectTask_ExecutedEffectEvent.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Effects\EffectTasks</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions">
+      <UniqueIdentifier>{82BE17AA-E2CE-4632-901F-7E80D6117CD0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions\AFLatentInterface.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions\AFTaskBase.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions\AFTaskManager.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions\GAWaitAction.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\LatentActions</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Private\Mods">
+      <UniqueIdentifier>{1A364DA8-EE53-49B8-BD84-557041C7A4B2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Private\Mods\GAAttributeMod.cpp">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Private\Mods</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public">
+      <UniqueIdentifier>{810E6793-27F7-4CB4-8D4C-9A3D9123EC50}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AbilityFramework.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFAbilityComponent.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFAbilityInterface.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFAbilityTypes.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFAttributeComponent.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFAttributeInterface.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFBlueprintFunctionLibrary.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFCueInterface.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFCueManager.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFEffectsComponent.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AFSimpleInterface.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\GAGlobalTypes.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\GAHelperTemplates.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\GAPhysicalMaterial.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\GAUIData.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\IAbilityFramework.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities">
+      <UniqueIdentifier>{359C0938-BAF8-4356-A368-C60225CC6811}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\AFAbilityActivationSpec.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\AFAbilityCooldownSpec.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\AFAbilityInfiniteDurationSpec.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\AFAbilityPeriodicInfiniteSpec.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\AFAbilityPeriodSpec.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\GAAbilityBase.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\GAAbilityBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks">
+      <UniqueIdentifier>{BACC6E53-1D0D-4633-9DEC-C50F684E76B5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\AFAbilityTask_SpawnProjectile.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_CreateObject.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_PlayMontage.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_Repeat.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_SpawnActor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_TargetData.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_TargetDataCircle.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_TargetDataLineTrace.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_WaitForConfirm.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks\GAAbilityTask_WaitTargetData.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Abilities\Tasks</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\AnimNotify">
+      <UniqueIdentifier>{5ED4C243-4FCA-4DAE-B2EC-7B17130335B5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AnimNotify\AFAbilityNotifyState.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\AnimNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\AnimNotify\AFAnimNotify.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\AnimNotify</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes">
+      <UniqueIdentifier>{024467A5-2811-42F1-9827-9D869BE99677}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributeBase.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributeExtension.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributeGlobals.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributesBase.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributesBlueprintFunctionLibrary.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes\GAAttributesStats.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Attributes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Cues">
+      <UniqueIdentifier>{67BFD1C5-5B8A-4BE5-8BE8-73558EB2CCE4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Cues\AFCueStaticBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Cues\AFCueStaticGeneratedClass.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Cues</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects">
+      <UniqueIdentifier>{18284E9F-8433-4D25-81CD-7599D5CFA7E4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFCueActor.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFCueActorBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFCueActorGeneratedClass.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFCueStatic.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFEffectApplicationRequirement.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFEffectCustomApplication.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFEffectCustomStackingRule.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\AFEffectSpecFunctionLibrary.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GABlueprintLibrary.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GACustomCalculation.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAEffectBlueprint.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAEffectCueGlobals.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAEffectCueSequence.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAEffectExecution.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAEffectExtension.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAEffectField.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAEffectGlobalTypes.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\GAGameEffect.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\ApplicationRequirement">
+      <UniqueIdentifier>{9EE4D5BD-2E4C-404C-A6D6-49D1DC7EFA25}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\ApplicationRequirement\AFAttributeStongerOverride.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\ApplicationRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\ApplicationRequirement\AFEffectAlreadyApplied.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\ApplicationRequirement</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications">
+      <UniqueIdentifier>{3ABB33A2-3FCC-4802-81DC-1BFD5B6B22E5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFAtributeDurationAdd.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFAtributeDurationUnique.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFAttributeDurationInfinite.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFAttributeDurationOverride.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFPeriodApplicationAdd.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFPeriodApplicationExtend.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFPeriodApplicationInfiniteAdd.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFPeriodApplicationOverride.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications\AFPeriodicApplInfiniteOverride.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\CustomApplications</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks">
+      <UniqueIdentifier>{44ACA8BC-D3D4-4F53-80EA-8D27C51C48C4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks\AFEffectTask.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks\AFEffectTask_AppliedEffectEvent.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks\AFEffectTask_AttributeChange.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks\AFEffectTask_EffectAppliedToSelf.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks\AFEffectTask_EffectAppliedToTarget.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks\AFEffectTask_EffectEvent.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks\AFEffectTask_ExecutedEffectEvent.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Effects\EffectTasks</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions">
+      <UniqueIdentifier>{48E33D8F-01C3-470E-BDD1-1772C4893CDD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions\AFLatentInterface.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions\AFTaskBase.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions\AFTaskManager.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions\GAWaitAction.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\LatentActions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AbilityFramework\Source\AbilityFramework\Public\Mods">
+      <UniqueIdentifier>{11134E4C-822C-4D40-9862-6611BD65EF3E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AbilityFramework\Source\AbilityFramework\Public\Mods\GAAttributeMod.h">
+      <Filter>Plugins\AbilityFramework\Source\AbilityFramework\Public\Mods</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DraggableWindow\Source">
+      <UniqueIdentifier>{CB280C3E-D00A-423E-A275-57BBC7838235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DraggableWindow\Source\DraggableWindow">
+      <UniqueIdentifier>{9BB8C137-6BC4-4ABB-B6C1-238FED99196B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\DraggableWindow.Build.cs">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow</Filter>
+    </None>
+    <Filter Include="Plugins\DraggableWindow\Source\DraggableWindow\Public">
+      <UniqueIdentifier>{758B464B-60B2-4C4A-9B0F-555EF498B18C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DraggableWindow.cpp">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DraggableWindow.h">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DWBPFunctionLibrary.cpp">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DWBPFunctionLibrary.h">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DWManager.cpp">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DWManager.h">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DWTypes.cpp">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\DWTypes.h">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\SDraggableWindowWidget.cpp">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DraggableWindow\Source\DraggableWindow\Public\SDraggableWindowWidget.h">
+      <Filter>Plugins\DraggableWindow\Source\DraggableWindow\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\InventoryFrameworkUI\Source">
+      <UniqueIdentifier>{AAD1C07A-FF46-4F88-AFDE-39DBDB470005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI">
+      <UniqueIdentifier>{ADEA5D98-F752-4123-80CB-5242286BB49B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\InventoryFrameworkUI.Build.cs">
+      <Filter>Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI</Filter>
+    </None>
+    <Filter Include="Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Private">
+      <UniqueIdentifier>{D072B26F-9B6B-426A-86FC-94DCFC7A5F85}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Private\IFItemContainerWidget.cpp">
+      <Filter>Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Private\IFItemWidget.cpp">
+      <Filter>Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Private\InventoryFrameworkUI.cpp">
+      <Filter>Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Public">
+      <UniqueIdentifier>{B12AD217-D750-47E2-A797-9D36A4532CF2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Public\IFItemContainerWidget.h">
+      <Filter>Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Public\IFItemWidget.h">
+      <Filter>Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Public\InventoryFrameworkUI.h">
+      <Filter>Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\InventoryFramework\Source">
+      <UniqueIdentifier>{9E8B98F8-8515-42EF-95CB-6AF4F1D6CB83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\InventoryFramework\Source\InventoryFramework">
+      <UniqueIdentifier>{3F0F5782-F103-4AFD-8CE9-C4976BC1281C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\InventoryFramework.Build.cs">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework</Filter>
+    </None>
+    <Filter Include="Plugins\InventoryFramework\Source\InventoryFramework\Private">
+      <UniqueIdentifier>{71C9D671-457D-4388-81B2-A97D9A37D417}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Private\IFEquipmentComponent.cpp">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Private\IFInventoryComponent.cpp">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Private\IFInventoryInterface.cpp">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Private\IFItemActorBase.cpp">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Private\IFItemBase.cpp">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Private\IFTypes.cpp">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Private\InventoryFramework.cpp">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\InventoryFramework\Source\InventoryFramework\Public">
+      <UniqueIdentifier>{5AC3AAF5-D853-43B7-B067-CB66B4C14E6E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Public\IFEquipmentComponent.h">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Public\IFInventoryComponent.h">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Public\IFInventoryInterface.h">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Public\IFItemActorBase.h">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Public\IFItemBase.h">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Public\IFTypes.h">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\InventoryFramework\Source\InventoryFramework\Public\InventoryFramework.h">
+      <Filter>Plugins\InventoryFramework\Source\InventoryFramework\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\JsonUObject\Source">
+      <UniqueIdentifier>{780C23C6-1A20-4117-877E-0501ABB8F0DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\JsonUObject\Source\JsonUObject">
+      <UniqueIdentifier>{82AEEF12-F917-4462-91E1-13E221B752ED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\JsonUObject\Source\JsonUObject\JsonUObject.Build.cs">
+      <Filter>Plugins\JsonUObject\Source\JsonUObject</Filter>
+    </None>
+    <Filter Include="Plugins\JsonUObject\Source\JsonUObject\Private">
+      <UniqueIdentifier>{FD70BC9E-5CC7-4C66-A607-04E84DC6F80D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\JsonUObject\Source\JsonUObject\Private\JsonUObject.cpp">
+      <Filter>Plugins\JsonUObject\Source\JsonUObject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\JsonUObject\Source\JsonUObject\Private\JsonUODeserialize.cpp">
+      <Filter>Plugins\JsonUObject\Source\JsonUObject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\JsonUObject\Source\JsonUObject\Private\JsonUOSerialize.cpp">
+      <Filter>Plugins\JsonUObject\Source\JsonUObject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\JsonUObject\Source\JsonUObject\Public">
+      <UniqueIdentifier>{0B8669F3-A9F4-48C4-9C23-2C032B8317C9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\JsonUObject\Source\JsonUObject\Public\JsonUObject.h">
+      <Filter>Plugins\JsonUObject\Source\JsonUObject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\JsonUObject\Source\JsonUObject\Public\JsonUODeserialize.h">
+      <Filter>Plugins\JsonUObject\Source\JsonUObject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\JsonUObject\Source\JsonUObject\Public\JsonUOSerialize.h">
+      <Filter>Plugins\JsonUObject\Source\JsonUObject\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SpectrAITest\Source">
+      <UniqueIdentifier>{01220C31-9A6F-4A16-A5CE-38EF44D852E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpectrAITest\Source\SpectrAITest">
+      <UniqueIdentifier>{0D775C00-FC9F-40DB-B148-5A7E8BB38A07}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\SpectrAITest.Build.cs">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest</Filter>
+    </None>
+    <Filter Include="Plugins\SpectrAITest\Source\SpectrAITest\Public">
+      <UniqueIdentifier>{D8BDF363-EA7F-4953-8935-F21A8FFF33B3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\SpectrAITest.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\SpectrAITest.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_ChopFirewood.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_ChopFirewood.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_ChopWood.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_ChopWood.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_CollectBranches.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_CollectBranches.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_CollectOre.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_CollectOre.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_DropFirewood.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_DropFirewood.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_DropOre.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_DropOre.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_DropWood.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_DropWood.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_GoTo.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_GoTo.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_MakeAxe.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_MakeAxe.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_MakePick.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_MakePick.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_MineOre.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_MineOre.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_PickItemAxe.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_PickItemAxe.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_PickItemPick.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAction_PickItemPick.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAIControllerBase.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAIControllerBase.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAxePickup.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestAxePickup.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestBranch.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestBranch.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestForge.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestForge.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestStorage.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestStorage.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestTree.cpp">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAITest\Source\SpectrAITest\Public\STestTree.h">
+      <Filter>Plugins\SpectrAITest\Source\SpectrAITest\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SpectrAI\Source">
+      <UniqueIdentifier>{6E7D26C1-D5C6-42C3-A560-80826D570D42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpectrAI\Source\SpectrAIEditor">
+      <UniqueIdentifier>{4A41D5C2-86DF-47BF-A311-DDBD5CA78063}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpectrAI\Source\SpectrAIEditor\SpectrAIEditor.Build.cs">
+      <Filter>Plugins\SpectrAI\Source\SpectrAIEditor</Filter>
+    </None>
+    <Filter Include="Plugins\SpectrAI\Source\SpectrAIEditor\Public">
+      <UniqueIdentifier>{879BB3A8-5CDF-4084-B4F4-4AB253DC61CE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAIEditor\Public\SpectrAIEditor.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAIEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAIEditor\Public\SpectrAIEditor.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAIEditor\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAIEditor\Public\SpectrGoalCustomization.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAIEditor\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAIEditor\Public\SpectrGoalCustomization.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAIEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SpectrAI\Source\SpectrAI">
+      <UniqueIdentifier>{13137894-C6EE-44A7-90EF-D0C57717668C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpectrAI\Source\SpectrAI\SpectrAI.Build.cs">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI</Filter>
+    </None>
+    <Filter Include="Plugins\SpectrAI\Source\SpectrAI\Public">
+      <UniqueIdentifier>{2903F654-4F47-4947-A5D6-D74A7B3BE6CE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrAction.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrAction.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrAI.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrAI.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrAIController.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrAIController.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrBrainComponent.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrBrainComponent.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrConsideration.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrConsideration.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrContext.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrContext.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrEvaluator.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrEvaluator.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrGoal.cpp">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpectrAI\Source\SpectrAI\Public\SpectrGoal.h">
+      <Filter>Plugins\SpectrAI\Source\SpectrAI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\uFire\Source">
+      <UniqueIdentifier>{0672F446-B00B-40D8-A1A3-A93B7376AC2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\uFire\Source\uFire">
+      <UniqueIdentifier>{BAF50659-CE46-4D8B-B483-3E266D79DBA4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\uFire\Source\uFire\uFire.Build.cs">
+      <Filter>Plugins\uFire\Source\uFire</Filter>
+    </None>
+    <Filter Include="Plugins\uFire\Source\uFire\Private">
+      <UniqueIdentifier>{77F0035E-A7F4-4158-9240-BB7E1BB6A560}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\uFire\Source\uFire\Private\uFire.cpp">
+      <Filter>Plugins\uFire\Source\uFire\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\uFire\Source\uFire\Public">
+      <UniqueIdentifier>{EED197A0-F64E-4D52-9008-90A656A7E833}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\uFire\Source\uFire\Public\uFire.h">
+      <Filter>Plugins\uFire\Source\uFire\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\Hominina">
-      <UniqueIdentifier>{A903F960-0A80-4405-A3E0-1B06ED068D7D}</UniqueIdentifier>
+      <UniqueIdentifier>{62BFBA4C-CAE6-439C-B010-9450FF175E5E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Hominina\Hominina.Build.cs">
       <Filter>Source\Hominina</Filter>
@@ -96,10 +1380,466 @@
       <Filter>Source\Hominina</Filter>
     </ClInclude>
     <Filter Include="Source\Hominina\Private">
-      <UniqueIdentifier>{5F241005-6A49-4454-9F15-A5847FA87130}</UniqueIdentifier>
+      <UniqueIdentifier>{8AD3A8E7-643C-4849-8E60-6F87B00BCC70}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARCharacter.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARCharacterMovementComponent.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\AREnemySpawner.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARGameInstance.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARGameMode.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARGameSession.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARGameStateBase.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARGlobals.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARItemBase.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARItemPickupBase.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARItemSpawnerBase.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARMenuPlayerController.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARPlayerController.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\ARPlayerStateBase.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\MyActor1.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UITrigger.cpp">
+      <Filter>Source\Hominina\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\Abilities">
+      <UniqueIdentifier>{6E72C0F6-DD01-40C2-8A63-8ADAF9A4F9EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\Abilities\ARAbilityBase.cpp">
+      <Filter>Source\Hominina\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Abilities\ARAbilityUIData.cpp">
+      <Filter>Source\Hominina\Private\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Abilities\ARAvailableAbilities.cpp">
+      <Filter>Source\Hominina\Private\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\AI">
+      <UniqueIdentifier>{C098EE15-8797-4DE8-BCF8-8537907F9583}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\AI\ARAICharacter.cpp">
+      <Filter>Source\Hominina\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\AI\ARAIController.cpp">
+      <Filter>Source\Hominina\Private\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\Attributes">
+      <UniqueIdentifier>{4EB5160D-1799-49CC-8010-11738FEB8DDD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\Attributes\ARAbilityAttributes.cpp">
+      <Filter>Source\Hominina\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Attributes\ARCharacterAttributes.cpp">
+      <Filter>Source\Hominina\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Attributes\ARGunAttributes.cpp">
+      <Filter>Source\Hominina\Private\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Attributes\ARHealthExtension.cpp">
+      <Filter>Source\Hominina\Private\Attributes</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\Calculations">
+      <UniqueIdentifier>{C471FAE6-E9A1-407D-B232-A5D3F43C668B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\Calculations\ARAmmoReloadCalculation.cpp">
+      <Filter>Source\Hominina\Private\Calculations</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\Equipment">
+      <UniqueIdentifier>{48FF2478-7E9F-43DF-B94F-9C4449F64847}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\Equipment\ARCharacterEquipmentComponent.cpp">
+      <Filter>Source\Hominina\Private\Equipment</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\Menu">
+      <UniqueIdentifier>{C791432A-E63F-4C14-A097-163E1353C6FE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\Menu\ARMainMenuView.cpp">
+      <Filter>Source\Hominina\Private\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Menu\ARMenuGameMode.cpp">
+      <Filter>Source\Hominina\Private\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Menu\ARMenuHUD.cpp">
+      <Filter>Source\Hominina\Private\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Menu\ARRegisterView.cpp">
+      <Filter>Source\Hominina\Private\Menu</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\UI">
+      <UniqueIdentifier>{0FEF564B-8407-4002-BD06-2BC910EC216E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\ARHUD.cpp">
+      <Filter>Source\Hominina\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\ARHUDWidget.cpp">
+      <Filter>Source\Hominina\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\ARUIComponent.cpp">
+      <Filter>Source\Hominina\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\ARUMGWidgetBase.cpp">
+      <Filter>Source\Hominina\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\SARCrosshairBase.cpp">
+      <Filter>Source\Hominina\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\SARDrawTestWidget.cpp">
+      <Filter>Source\Hominina\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\UI\HUD">
+      <UniqueIdentifier>{BBADC567-D312-4ACF-884C-41AA4A66EFCC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\HUD\ARHUDCrosshair.cpp">
+      <Filter>Source\Hominina\Private\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\HUD\ARHUDCrosshairInfo.cpp">
+      <Filter>Source\Hominina\Private\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\HUD\ARHUDEnemyHealthBar.cpp">
+      <Filter>Source\Hominina\Private\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\HUD\ARHUDFloatingCombatText.cpp">
+      <Filter>Source\Hominina\Private\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\HUD\ARHUDPlayerInfo.cpp">
+      <Filter>Source\Hominina\Private\UI\HUD</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\UI\Inventory">
+      <UniqueIdentifier>{A352486E-74DB-4186-8046-5861813CF64C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\ARInventoryScreenWidget.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\ARItemTooltipView.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\ARItemView.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\ARListItemView.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\ARUIInventoryComponent.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\UI\Inventory\Weapons">
+      <UniqueIdentifier>{30A0B9E8-8389-4016-A739-66341CF6A994}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\Weapons\ARItemWeaponWidget.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\Weapons\ARListItemWeaponWidget.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\Weapons\ARWeaponContainerWidget.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\Weapons\ARWeaponModificationView.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory\Weapons</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\UI\Inventory\Weapons\Modifications">
+      <UniqueIdentifier>{DB614277-3121-45AD-AE9D-98A5CA942F37}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\Weapons\Modifications\ARItemMagazineView.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory\Weapons\Modifications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\Weapons\Modifications\ARItemWeaponUpgradeView.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory\Weapons\Modifications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Inventory\Weapons\Modifications\ARListItemMagazineView.cpp">
+      <Filter>Source\Hominina\Private\UI\Inventory\Weapons\Modifications</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\UI\Menu">
+      <UniqueIdentifier>{18BC0C62-9792-4104-9CD9-552A0B2C10A4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\UI\Menu\ARLoginScreenView.cpp">
+      <Filter>Source\Hominina\Private\UI\Menu</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hominina\Private\Weapons">
+      <UniqueIdentifier>{A174CEC2-42B8-4C79-A965-213E6C45B337}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARItemWeapon.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARMagazineUpgradeEffect.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARMagazineUpgradeItem.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARWeaponAbilityBase.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARWeaponBase.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARWeaponInventoryComponent.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARWeaponsTypes.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hominina\Private\Weapons\ARWeaponUpgradeItem.cpp">
+      <Filter>Source\Hominina\Private\Weapons</Filter>
+    </ClCompile>
     <Filter Include="Source\Hominina\Public">
-      <UniqueIdentifier>{43730ECE-8F1E-4E7D-9DA4-9366948BCE57}</UniqueIdentifier>
+      <UniqueIdentifier>{B18FDAAC-B1FA-4063-A269-A8446CE6CE62}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARCharacter.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARCharacterMovementComponent.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\AREnemySpawner.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARGameInstance.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARGameMode.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARGameSession.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARGameStateBase.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARGlobals.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARItemBase.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARItemPickupBase.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARItemSpawnerBase.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARMenuPlayerController.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARPlayerController.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\ARPlayerStateBase.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\MyActor1.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UITrigger.h">
+      <Filter>Source\Hominina\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\Abilities">
+      <UniqueIdentifier>{C38D93A3-4042-496D-A855-D136C1482FAF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\Abilities\ARAbilityBase.h">
+      <Filter>Source\Hominina\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Abilities\ARAbilityUIData.h">
+      <Filter>Source\Hominina\Public\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Abilities\ARAvailableAbilities.h">
+      <Filter>Source\Hominina\Public\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\AI">
+      <UniqueIdentifier>{F0806708-A4B1-4493-9A40-3621E1427383}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\AI\ARAICharacter.h">
+      <Filter>Source\Hominina\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\AI\ARAIController.h">
+      <Filter>Source\Hominina\Public\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\Attributes">
+      <UniqueIdentifier>{CC772400-A96E-49B0-988F-C3A89EC297D5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\Attributes\ARAbilityAttributes.h">
+      <Filter>Source\Hominina\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Attributes\ARCharacterAttributes.h">
+      <Filter>Source\Hominina\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Attributes\ARGunAttributes.h">
+      <Filter>Source\Hominina\Public\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Attributes\ARHealthExtension.h">
+      <Filter>Source\Hominina\Public\Attributes</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\Calculations">
+      <UniqueIdentifier>{15FB96C9-3BC0-42D2-958E-2D22E6ABEC1A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\Calculations\ARAmmoReloadCalculation.h">
+      <Filter>Source\Hominina\Public\Calculations</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\Equipment">
+      <UniqueIdentifier>{0A7E583A-B841-4DEB-AD1B-170D4013B8CC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\Equipment\ARCharacterEquipmentComponent.h">
+      <Filter>Source\Hominina\Public\Equipment</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\Menu">
+      <UniqueIdentifier>{95034F53-9182-42E2-A549-8480715FE519}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\Menu\ARMainMenuView.h">
+      <Filter>Source\Hominina\Public\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Menu\ARMenuGameMode.h">
+      <Filter>Source\Hominina\Public\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Menu\ARMenuHUD.h">
+      <Filter>Source\Hominina\Public\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Menu\ARRegisterView.h">
+      <Filter>Source\Hominina\Public\Menu</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\UI">
+      <UniqueIdentifier>{401EF4A1-6C5C-4A5A-9F04-3222983EAD0B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\ARHUD.h">
+      <Filter>Source\Hominina\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\ARHUDWidget.h">
+      <Filter>Source\Hominina\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\ARUIComponent.h">
+      <Filter>Source\Hominina\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\ARUMGWidgetBase.h">
+      <Filter>Source\Hominina\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\SARCrosshairBase.h">
+      <Filter>Source\Hominina\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\SARDrawTestWidget.h">
+      <Filter>Source\Hominina\Public\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\UI\HUD">
+      <UniqueIdentifier>{0EF4034C-9563-48F4-B41C-5307CFDD7BF2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\HUD\ARHUDCrosshair.h">
+      <Filter>Source\Hominina\Public\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\HUD\ARHUDCrosshairInfo.h">
+      <Filter>Source\Hominina\Public\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\HUD\ARHUDEnemyHealthBar.h">
+      <Filter>Source\Hominina\Public\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\HUD\ARHUDFloatingCombatText.h">
+      <Filter>Source\Hominina\Public\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\HUD\ARHUDPlayerInfo.h">
+      <Filter>Source\Hominina\Public\UI\HUD</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\UI\Inventory">
+      <UniqueIdentifier>{1E93FA84-691C-4BA3-882C-2BA799C0437A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\ARInventoryScreenWidget.h">
+      <Filter>Source\Hominina\Public\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\ARItemTooltipView.h">
+      <Filter>Source\Hominina\Public\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\ARItemView.h">
+      <Filter>Source\Hominina\Public\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\ARListItemView.h">
+      <Filter>Source\Hominina\Public\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\ARUIInventoryComponent.h">
+      <Filter>Source\Hominina\Public\UI\Inventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\UI\Inventory\Weapons">
+      <UniqueIdentifier>{6BCAE975-583A-4B79-BE99-72853033DEE3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\Weapons\ARItemWeaponWidget.h">
+      <Filter>Source\Hominina\Public\UI\Inventory\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\Weapons\ARListItemWeaponWidget.h">
+      <Filter>Source\Hominina\Public\UI\Inventory\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\Weapons\ARWeaponContainerWidget.h">
+      <Filter>Source\Hominina\Public\UI\Inventory\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\Weapons\ARWeaponModificationView.h">
+      <Filter>Source\Hominina\Public\UI\Inventory\Weapons</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\UI\Inventory\Weapons\Modifications">
+      <UniqueIdentifier>{A97416B7-954D-4B3A-B8D4-4DB0D9BDE907}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\Weapons\Modifications\ARItemMagazineView.h">
+      <Filter>Source\Hominina\Public\UI\Inventory\Weapons\Modifications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\Weapons\Modifications\ARItemWeaponUpgradeView.h">
+      <Filter>Source\Hominina\Public\UI\Inventory\Weapons\Modifications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Inventory\Weapons\Modifications\ARListItemMagazineView.h">
+      <Filter>Source\Hominina\Public\UI\Inventory\Weapons\Modifications</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\UI\Menu">
+      <UniqueIdentifier>{59721CE3-1094-404A-9E9F-910FC21C83B2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\UI\Menu\ARLoginScreenView.h">
+      <Filter>Source\Hominina\Public\UI\Menu</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hominina\Public\Weapons">
+      <UniqueIdentifier>{181A6679-3A0A-4D36-ADFD-DBEA021CBE59}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARItemWeapon.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARMagazineUpgradeEffect.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARMagazineUpgradeItem.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARWeaponAbilityBase.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARWeaponBase.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARWeaponInventoryComponent.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARWeaponsTypes.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Hominina\Public\Weapons\ARWeaponUpgradeItem.h">
+      <Filter>Source\Hominina\Public\Weapons</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

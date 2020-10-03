@@ -1,3 +1,13 @@
-F:\Proj1\Hominina\Source\Hominina\Hominina.Build.cs
-F:\Proj1\Hominina\Source\Hominina.Target.cs
-F:\Proj1\Hominina\Source\HomininaEditor.Target.cs
+F:\Proj\Hominina\Source\Hominina\Hominina.Build.cs
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFramework\AbilityFramework.Build.cs
+F:\Proj\Hominina\Plugins\AbilityFramework\Source\AbilityFrameworkEditor\AbilityFrameworkEditor.Build.cs
+F:\Proj\Hominina\Plugins\DraggableWindow\Source\DraggableWindow\DraggableWindow.Build.cs
+F:\Proj\Hominina\Plugins\InventoryFrameworkUI\Source\InventoryFrameworkUI\InventoryFrameworkUI.Build.cs
+F:\Proj\Hominina\Plugins\InventoryFramework\Source\InventoryFramework\InventoryFramework.Build.cs
+F:\Proj\Hominina\Plugins\JsonUObject\Source\JsonUObject\JsonUObject.Build.cs
+F:\Proj\Hominina\Plugins\SpectrAITest\Source\SpectrAITest\SpectrAITest.Build.cs
+F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAI\SpectrAI.Build.cs
+F:\Proj\Hominina\Plugins\SpectrAI\Source\SpectrAIEditor\SpectrAIEditor.Build.cs
+F:\Proj\Hominina\Plugins\uFire\Source\uFire\uFire.Build.cs
+F:\Proj\Hominina\Source\Hominina.Target.cs
+F:\Proj\Hominina\Source\HomininaEditor.Target.cs

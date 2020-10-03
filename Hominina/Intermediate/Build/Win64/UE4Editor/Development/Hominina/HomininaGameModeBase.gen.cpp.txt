@@ -1,9 +1,0 @@
-F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Development\Hominina\Definitions.Hominina.h
-F:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-F:\Proj1\Hominina\Source\Hominina/HomininaGameModeBase.h
-F:\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-F:\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-F:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-F:\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-F:\Proj1\Hominina\Intermediate\Build\Win64\UE4Editor\Inc\Hominina\HomininaGameModeBase.generated.h
