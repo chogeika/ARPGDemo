@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DraggableWindow.cpp.obj": [
+			"DraggableWindow.cpp.obj",
+			"DWBPFunctionLibrary.cpp.obj",
+			"DWManager.cpp.obj",
+			"DWTypes.cpp.obj",
+			"SDraggableWindowWidget.cpp.obj"
+		],
+		"Module.DraggableWindow.gen.cpp.obj": [
+			"DraggableWindow.init.gen.cpp.obj",
+			"DWBPFunctionLibrary.gen.cpp.obj",
+			"DWTypes.gen.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.JsonUObject.cpp.obj": [
+			"JsonUObject.cpp.obj",
+			"JsonUODeserialize.cpp.obj",
+			"JsonUOSerialize.cpp.obj"
+		]
+	}
+}

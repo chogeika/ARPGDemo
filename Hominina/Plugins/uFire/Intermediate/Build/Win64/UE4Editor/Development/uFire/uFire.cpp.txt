@@ -1,0 +1,2 @@
+F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\Definitions.uFire.h
+F:\Proj\Hominina\Plugins\uFire\Source\uFire\Public\uFire.h

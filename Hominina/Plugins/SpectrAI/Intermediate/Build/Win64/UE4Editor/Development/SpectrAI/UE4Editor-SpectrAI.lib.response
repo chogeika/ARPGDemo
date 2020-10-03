@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SpectrAI.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Proj\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\Module.SpectrAI.cpp.obj"
+"F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\Module.SpectrAI.gen.cpp.obj"
+"F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\Default.rc2.res"
+/OUT:"F:\Proj\Hominina\Plugins\SpectrAI\Intermediate\Build\Win64\UE4Editor\Development\SpectrAI\UE4Editor-SpectrAI.lib"
+/INCLUDE:IMPLEMENT_MODULE_SpectrAI

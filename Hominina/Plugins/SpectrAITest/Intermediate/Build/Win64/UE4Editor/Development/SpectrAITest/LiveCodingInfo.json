@@ -1,0 +1,49 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SpectrAITest.cpp.obj": [
+			"SpectrAITest.cpp.obj",
+			"STestAction_ChopFirewood.cpp.obj",
+			"STestAction_ChopWood.cpp.obj",
+			"STestAction_CollectBranches.cpp.obj",
+			"STestAction_CollectOre.cpp.obj",
+			"STestAction_DropFirewood.cpp.obj",
+			"STestAction_DropOre.cpp.obj",
+			"STestAction_DropWood.cpp.obj",
+			"STestAction_GoTo.cpp.obj",
+			"STestAction_MakeAxe.cpp.obj",
+			"STestAction_MakePick.cpp.obj",
+			"STestAction_MineOre.cpp.obj",
+			"STestAction_PickItemAxe.cpp.obj",
+			"STestAction_PickItemPick.cpp.obj",
+			"STestAIControllerBase.cpp.obj",
+			"STestAxePickup.cpp.obj",
+			"STestBranch.cpp.obj",
+			"STestForge.cpp.obj",
+			"STestStorage.cpp.obj",
+			"STestTree.cpp.obj"
+		],
+		"Module.SpectrAITest.gen.cpp.obj": [
+			"SpectrAITest.init.gen.cpp.obj",
+			"STestAction_ChopFirewood.gen.cpp.obj",
+			"STestAction_ChopWood.gen.cpp.obj",
+			"STestAction_CollectBranches.gen.cpp.obj",
+			"STestAction_CollectOre.gen.cpp.obj",
+			"STestAction_DropFirewood.gen.cpp.obj",
+			"STestAction_DropOre.gen.cpp.obj",
+			"STestAction_DropWood.gen.cpp.obj",
+			"STestAction_GoTo.gen.cpp.obj",
+			"STestAction_MakeAxe.gen.cpp.obj",
+			"STestAction_MakePick.gen.cpp.obj",
+			"STestAction_MineOre.gen.cpp.obj",
+			"STestAction_PickItemAxe.gen.cpp.obj",
+			"STestAction_PickItemPick.gen.cpp.obj",
+			"STestAIControllerBase.gen.cpp.obj",
+			"STestAxePickup.gen.cpp.obj",
+			"STestBranch.gen.cpp.obj",
+			"STestForge.gen.cpp.obj",
+			"STestStorage.gen.cpp.obj",
+			"STestTree.gen.cpp.obj"
+		]
+	}
+}

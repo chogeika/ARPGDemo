@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SpectrAIEditor.cpp.obj": [
+			"SpectrAIEditor.cpp.obj",
+			"SpectrGoalCustomization.cpp.obj"
+		]
+	}
+}

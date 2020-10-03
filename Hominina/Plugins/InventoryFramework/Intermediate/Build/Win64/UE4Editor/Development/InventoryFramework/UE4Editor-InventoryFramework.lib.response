@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-InventoryFramework.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Proj\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\Module.InventoryFramework.cpp.obj"
+"F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\Module.InventoryFramework.gen.cpp.obj"
+"F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\Default.rc2.res"
+/OUT:"F:\Proj\Hominina\Plugins\InventoryFramework\Intermediate\Build\Win64\UE4Editor\Development\InventoryFramework\UE4Editor-InventoryFramework.lib"
+/INCLUDE:IMPLEMENT_MODULE_InventoryFramework

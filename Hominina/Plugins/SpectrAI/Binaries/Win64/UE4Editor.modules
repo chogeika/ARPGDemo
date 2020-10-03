@@ -1,0 +1,8 @@
+{
+	"BuildId": "8386587",
+	"Modules": 
+	{
+		"SpectrAI": "UE4Editor-SpectrAI.dll",
+		"SpectrAIEditor": "UE4Editor-SpectrAIEditor.dll"
+	}
+}

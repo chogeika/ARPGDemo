@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-JsonUObject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Proj\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\Proj\Hominina\Plugins\JsonUObject\Intermediate\Build\Win64\UE4Editor\Development\JsonUObject\Module.JsonUObject.cpp.obj"
+"F:\Proj\Hominina\Plugins\JsonUObject\Intermediate\Build\Win64\UE4Editor\Development\JsonUObject\Default.rc2.res"
+/OUT:"F:\Proj\Hominina\Plugins\JsonUObject\Intermediate\Build\Win64\UE4Editor\Development\JsonUObject\UE4Editor-JsonUObject.lib"
+/INCLUDE:IMPLEMENT_MODULE_JsonUObject

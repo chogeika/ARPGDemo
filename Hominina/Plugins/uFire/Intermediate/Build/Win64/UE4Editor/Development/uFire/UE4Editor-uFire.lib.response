@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-uFire.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Proj\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\uFire.cpp.obj"
+"F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\Default.rc2.res"
+/OUT:"F:\Proj\Hominina\Plugins\uFire\Intermediate\Build\Win64\UE4Editor\Development\uFire\UE4Editor-uFire.lib"
+/INCLUDE:IMPLEMENT_MODULE_uFire

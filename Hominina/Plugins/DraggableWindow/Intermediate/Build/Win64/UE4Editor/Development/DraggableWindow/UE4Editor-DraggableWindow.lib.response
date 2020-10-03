@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DraggableWindow.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Proj\Hominina\Intermediate\Build\Win64\HomininaEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\Module.DraggableWindow.cpp.obj"
+"F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\Module.DraggableWindow.gen.cpp.obj"
+"F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\Default.rc2.res"
+/OUT:"F:\Proj\Hominina\Plugins\DraggableWindow\Intermediate\Build\Win64\UE4Editor\Development\DraggableWindow\UE4Editor-DraggableWindow.lib"
+/INCLUDE:IMPLEMENT_MODULE_DraggableWindow

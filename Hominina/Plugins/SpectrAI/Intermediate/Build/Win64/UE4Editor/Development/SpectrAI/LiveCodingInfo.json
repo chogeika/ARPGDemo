@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SpectrAI.cpp.obj": [
+			"SpectrAction.cpp.obj",
+			"SpectrAI.cpp.obj",
+			"SpectrAIController.cpp.obj",
+			"SpectrBrainComponent.cpp.obj",
+			"SpectrConsideration.cpp.obj",
+			"SpectrContext.cpp.obj",
+			"SpectrEvaluator.cpp.obj",
+			"SpectrGoal.cpp.obj"
+		],
+		"Module.SpectrAI.gen.cpp.obj": [
+			"SpectrAction.gen.cpp.obj",
+			"SpectrAI.init.gen.cpp.obj",
+			"SpectrAIController.gen.cpp.obj",
+			"SpectrBrainComponent.gen.cpp.obj",
+			"SpectrConsideration.gen.cpp.obj",
+			"SpectrContext.gen.cpp.obj",
+			"SpectrEvaluator.gen.cpp.obj",
+			"SpectrGoal.gen.cpp.obj"
+		]
+	}
+}

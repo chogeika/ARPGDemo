@@ -1,0 +1,8 @@
+{
+	"BuildId": "8386587",
+	"Modules": 
+	{
+		"AbilityFramework": "UE4Editor-AbilityFramework.dll",
+		"AbilityFrameworkEditor": "UE4Editor-AbilityFrameworkEditor.dll"
+	}
+}

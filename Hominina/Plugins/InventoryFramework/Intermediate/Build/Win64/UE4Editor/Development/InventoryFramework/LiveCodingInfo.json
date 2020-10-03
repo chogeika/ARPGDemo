@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InventoryFramework.cpp.obj": [
+			"IFEquipmentComponent.cpp.obj",
+			"IFInventoryComponent.cpp.obj",
+			"IFInventoryInterface.cpp.obj",
+			"IFItemActorBase.cpp.obj",
+			"IFItemBase.cpp.obj",
+			"IFTypes.cpp.obj",
+			"InventoryFramework.cpp.obj"
+		],
+		"Module.InventoryFramework.gen.cpp.obj": [
+			"IFEquipmentComponent.gen.cpp.obj",
+			"IFInventoryComponent.gen.cpp.obj",
+			"IFInventoryInterface.gen.cpp.obj",
+			"IFItemActorBase.gen.cpp.obj",
+			"IFItemBase.gen.cpp.obj",
+			"IFTypes.gen.cpp.obj",
+			"InventoryFramework.init.gen.cpp.obj"
+		]
+	}
+}

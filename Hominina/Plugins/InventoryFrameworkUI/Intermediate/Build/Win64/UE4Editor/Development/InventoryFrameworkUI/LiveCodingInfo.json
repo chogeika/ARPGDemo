@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InventoryFrameworkUI.cpp.obj": [
+			"IFItemContainerWidget.cpp.obj",
+			"IFItemWidget.cpp.obj",
+			"InventoryFrameworkUI.cpp.obj"
+		],
+		"Module.InventoryFrameworkUI.gen.cpp.obj": [
+			"IFItemContainerWidget.gen.cpp.obj",
+			"IFItemWidget.gen.cpp.obj",
+			"InventoryFrameworkUI.init.gen.cpp.obj"
+		]
+	}
+}
